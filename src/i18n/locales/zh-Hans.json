@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "features": "功能",
+    "areas": "园区",
+    "faq": "常见问题"
+  },
+  "hero": {
+    "badge": "USS 等候时间 App",
+    "title1": "实时查询",
+    "title2": "设施等候时间",
+    "subtitle": "实时掌握新加坡环球影城的设施等候时间、工作日等候趋势与暂停开放信息，让每次游园都尽兴而归。",
+    "download": "下载",
+    "mockLabels": ["太空堡垒", "变形金刚", "木乃伊复仇", "侏罗纪激流"]
+  },
+  "trust": {
+    "languages": "支持语言",
+    "languagesCount": "6",
+    "areas": "园区",
+    "areasCount": "7",
+    "platforms": "双平台",
+    "platformsLabel": "iOS + Android"
+  },
+  "features": {
+    "sectionTitle": "为什么选择 USS Waiting Time？",
+    "sectionSubtitle": "在新加坡环球影城度过完美一天所需的一切",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "实时等候时间",
+        "description": "所有游乐设施的实时等候时间由园区直接提供，开园期间约每 15 分钟更新一次。"
+      },
+      {
+        "icon": "calendar",
+        "title": "周／月等候趋势",
+        "description": "根据历史数据平均的各星期几等候时间，帮你找到最不拥挤的游园日期。"
+      },
+      {
+        "icon": "bell",
+        "title": "暂停开放与营业时间",
+        "description": "出发前先到「资讯」分页确认今日营业时间与设施暂停开放公告。"
+      },
+      {
+        "icon": "ticket",
+        "title": "表演、餐饮与购物",
+        "description": "7 大园区的表演时刻表、餐厅与商店，支持名称搜索与园区筛选。"
+      },
+      {
+        "icon": "globe",
+        "title": "6 种语言",
+        "description": "支持英文、印尼文、日文、韩文、繁体中文与简体中文。"
+      }
+    ]
+  },
+  "areas": {
+    "sectionTitle": "7 大主题园区",
+    "sectionSubtitle": "完整覆盖新加坡环球影城的每一个角落"
+  },
+  "faq": {
+    "sectionTitle": "常见问题",
+    "pageSubtitle": "关于 USS Waiting Time App，你需要知道的一切",
+    "items": [
+      {
+        "question": "这个 App 是免费的吗？",
+        "answer": "是的，完全免费！等候时间、暂停开放通知、表演指南等所有功能都可免费使用。"
+      },
+      {
+        "question": "支持哪些语言？",
+        "answer": "支持 6 种语言：英文、印尼文、日文、韩文、繁体中文与简体中文。"
+      },
+      {
+        "question": "需要网络连接吗？",
+        "answer": "是的，因为等候时间数据是实时更新的，所以需要网络连接。"
+      },
+      {
+        "question": "数据多久更新一次？",
+        "answer": "园区开放期间，设施等候时间约每 15 分钟更新一次。"
+      },
+      {
+        "question": "为什么 App 显示的时间跟设施入口的看板不一样？",
+        "answer": "等候时间一整天都在不断变化。App 约每 15 分钟更新一次，与现场看板有些微落差是正常的，请将它作为规划路线的参考。"
+      }
+    ]
+  },
+  "brand": {
+    "title": "关于 USS Waiting Time",
+    "description": "我们希望让每一位来到新加坡环球影城的游客都玩得更尽兴。通过实时等候时间数据与暂停开放通知，让你的园区之旅更聪明、更好玩。",
+    "cta": "立即下载"
+  },
+  "footer": {
+    "tagline": "USS 等候时间 App\n实时掌握新加坡环球影城设施等候时间",
+    "legal": "法律信息",
+    "contact": "联系我们",
+    "privacy": "隐私政策",
+    "email": "srcchang@gmail.com",
+    "copyright": "© 2026 Project SRC. All rights reserved."
+  },
+  "common": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadApp": "下载 App",
+    "minutesUnit": "分",
+    "a11y": {
+      "home": "首页",
+      "menuOpen": "打开菜单",
+      "languageSelect": "选择语言",
+      "themeDark": "切换到深色模式",
+      "themeLight": "切换到浅色模式",
+      "skipToContent": "跳到主要内容",
+      "appStoreLink": "在 App Store 下载（在新标签页中打开）",
+      "googlePlayLink": "在 Google Play 下载（在新标签页中打开）"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "隐私政策",
+      "lastUpdated": "最后更新：2026年9月",
+      "sections": [
+        {
+          "heading": "我们收集的信息",
+          "content": "本 App 提供新加坡环球影城的设施等候时间、工作日等候趋势、暂停开放通知、表演与餐饮指南等信息。我们不会收集任何可识别个人身份的信息。"
+        },
+        {
+          "heading": "广告",
+          "content": "本 App 通过 Google AdMob 显示广告。AdMob 可能会使用匿名标识符与设备信息来个性化广告。"
+        },
+        {
+          "heading": "Firebase 服务",
+          "content": "本 App 使用 Firebase（Google LLC）服务。Firebase Analytics 会匿名收集 App 使用情况以进行改进；Firebase Crashlytics 会收集崩溃报告以提升 App 稳定性。"
+        },
+        {
+          "heading": "官方网站链接",
+          "content": "设施与场馆页面会链接至新加坡环球影城官方网站以便购票与查询详情，离开 App 后适用该网站自身的隐私政策。"
+        },
+        {
+          "heading": "联系我们",
+          "content": "如对本隐私政策有任何疑问，请联系 srcchang@gmail.com。"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "features": "Fitur",
+    "areas": "Zona",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "badge": "Aplikasi Waktu Tunggu USS",
+    "title1": "Cek Waktu Tunggu",
+    "title2": "Secara Real-Time",
+    "subtitle": "Waktu tunggu wahana secara live, tren tunggu tipikal, dan peringatan penutupan untuk Universal Studios Singapore. Jadikan setiap kunjungan berkesan.",
+    "download": "Unduh",
+    "mockLabels": ["Battlestar Galactica", "TRANSFORMERS", "Mummy", "Jurassic Rapids"]
+  },
+  "trust": {
+    "languages": "Bahasa",
+    "languagesCount": "6",
+    "areas": "Zona Taman",
+    "areasCount": "7",
+    "platforms": "Dua Platform",
+    "platformsLabel": "iOS + Android"
+  },
+  "features": {
+    "sectionTitle": "Mengapa USS Waiting Time?",
+    "sectionSubtitle": "Semua yang Anda butuhkan untuk hari sempurna di Universal Studios Singapore",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Waktu Tunggu Real-Time",
+        "description": "Waktu tunggu live untuk setiap wahana, dialirkan dari taman dan diperbarui kira-kira setiap 15 menit selama USS buka."
+      },
+      {
+        "icon": "calendar",
+        "title": "Tren Mingguan & Bulanan",
+        "description": "Waktu tunggu tipikal per hari dalam seminggu, dirata-ratakan dari data historis — temukan hari tersepi untuk berkunjung."
+      },
+      {
+        "icon": "bell",
+        "title": "Penutupan & Jam Operasional",
+        "description": "Jam operasional hari ini dan penutupan wahana sementara, cek di tab Info sebelum berangkat."
+      },
+      {
+        "icon": "ticket",
+        "title": "Pertunjukan, Kuliner & Belanja",
+        "description": "Jadwal pertunjukan, restoran, dan toko di seluruh 7 zona, dengan pencarian nama dan filter zona."
+      },
+      {
+        "icon": "globe",
+        "title": "6 Bahasa",
+        "description": "Mendukung Bahasa Inggris, Bahasa Indonesia, Bahasa Jepang, Bahasa Korea, Mandarin Tradisional, dan Mandarin Sederhana."
+      }
+    ]
+  },
+  "areas": {
+    "sectionTitle": "7 Zona Taman",
+    "sectionSubtitle": "Mencakup seluruh area Universal Studios Singapore"
+  },
+  "faq": {
+    "sectionTitle": "Pertanyaan yang Sering Diajukan",
+    "pageSubtitle": "Semua yang perlu Anda ketahui tentang aplikasi USS Waiting Time",
+    "items": [
+      {
+        "question": "Apakah aplikasi ini gratis?",
+        "answer": "Ya, sepenuhnya gratis! Semua fitur termasuk waktu tunggu, peringatan penutupan, dan panduan pertunjukan tersedia tanpa biaya."
+      },
+      {
+        "question": "Bahasa apa saja yang didukung?",
+        "answer": "Aplikasi ini mendukung 6 bahasa: Inggris, Indonesia, Jepang, Korea, Mandarin Tradisional, dan Mandarin Sederhana."
+      },
+      {
+        "question": "Apakah saya memerlukan koneksi internet?",
+        "answer": "Ya, koneksi internet diperlukan karena data waktu tunggu diperbarui secara real-time."
+      },
+      {
+        "question": "Seberapa sering data diperbarui?",
+        "answer": "Waktu tunggu wahana diperbarui kira-kira setiap 15 menit selama taman buka."
+      },
+      {
+        "question": "Mengapa waktu tunggu berbeda dengan papan di pintu masuk wahana?",
+        "answer": "Waktu tunggu berubah terus sepanjang hari. Aplikasi diperbarui kira-kira setiap 15 menit, jadi sedikit perbedaan dengan papan di lokasi adalah hal yang wajar — gunakan sebagai panduan untuk merencanakan rute Anda."
+      }
+    ]
+  },
+  "brand": {
+    "title": "Tentang USS Waiting Time",
+    "description": "Kami ingin membuat setiap kunjungan ke Universal Studios Singapore lebih menyenangkan. Dengan data waktu tunggu live dan peringatan penutupan, hari Anda di taman menjadi lebih cerdas dan seru.",
+    "cta": "Unduh Sekarang"
+  },
+  "footer": {
+    "tagline": "Aplikasi Waktu Tunggu USS\nWaktu tunggu real-time untuk Universal Studios Singapore",
+    "legal": "Legal",
+    "contact": "Kontak",
+    "privacy": "Kebijakan Privasi",
+    "email": "srcchang@gmail.com",
+    "copyright": "© 2026 Project SRC. Hak cipta dilindungi."
+  },
+  "common": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadApp": "Unduh Aplikasi",
+    "minutesUnit": " mnt",
+    "a11y": {
+      "home": "Beranda",
+      "menuOpen": "Buka menu",
+      "languageSelect": "Pilih bahasa",
+      "themeDark": "Beralih ke mode gelap",
+      "themeLight": "Beralih ke mode terang",
+      "skipToContent": "Lewati ke konten",
+      "appStoreLink": "Unduh di App Store (terbuka di tab baru)",
+      "googlePlayLink": "Dapatkan di Google Play (terbuka di tab baru)"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Kebijakan Privasi",
+      "lastUpdated": "Terakhir diperbarui: September 2026",
+      "sections": [
+        {
+          "heading": "Informasi yang Kami Kumpulkan",
+          "content": "Aplikasi ini menyediakan waktu tunggu wahana, tren tunggu tipikal, peringatan penutupan, serta panduan pertunjukan dan kuliner untuk Universal Studios Singapore. Kami tidak mengumpulkan informasi yang dapat mengidentifikasi pribadi."
+        },
+        {
+          "heading": "Periklanan",
+          "content": "Aplikasi ini menampilkan iklan melalui Google AdMob. AdMob dapat menggunakan pengenal anonim dan informasi perangkat untuk mempersonalisasi iklan."
+        },
+        {
+          "heading": "Layanan Firebase",
+          "content": "Aplikasi ini menggunakan layanan Firebase (Google LLC). Firebase Analytics mengumpulkan data penggunaan aplikasi secara anonim untuk perbaikan. Firebase Crashlytics mengumpulkan laporan kerusakan untuk meningkatkan stabilitas aplikasi."
+        },
+        {
+          "heading": "Tautan Situs Resmi",
+          "content": "Halaman wahana dan venue menautkan ke situs resmi Universal Studios Singapore untuk tiket dan detail. Kebijakan privasi situs tersebut berlaku setelah Anda meninggalkan aplikasi."
+        },
+        {
+          "heading": "Kontak",
+          "content": "Untuk pertanyaan tentang Kebijakan Privasi ini, hubungi srcchang@gmail.com."
+        }
+      ]
+    }
+  }
+}

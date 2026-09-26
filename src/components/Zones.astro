@@ -1,0 +1,52 @@
+---
+import { getTranslations, t } from '../i18n/translations';
+import type { Locale } from '../i18n/config';
+
+interface Props {
+  locale: string;
+}
+
+const { locale } = Astro.props;
+const tr = getTranslations(locale as Locale);
+
+const zones = [
+  { name: 'Hollywood', color: '#E53935' },
+  { name: 'New York', color: '#546E7A' },
+  { name: 'Sci-Fi City', color: '#00ACC1' },
+  { name: 'Ancient Egypt', color: '#C19A3D' },
+  { name: 'The Lost World', color: '#2E7D5B' },
+  { name: 'Far Far Away', color: '#6A3FA0' },
+  { name: 'Minion Land', color: '#E8A800' },
+];
+---
+
+<section id="areas" class="border-t border-border-subtle bg-bg-muted px-4 py-16 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-4xl">
+    <div class="mb-10 text-center">
+      <h2 class="text-2xl font-bold text-text-primary sm:text-3xl">
+        {t(tr, 'areas.sectionTitle')}
+      </h2>
+      <p class="mt-3 text-text-secondary">
+        {t(tr, 'areas.sectionSubtitle')}
+      </p>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
+      {zones.map((zone, i) => (
+        <div
+          class="flex flex-col items-center gap-2 rounded-xl border border-border-subtle bg-bg-surface p-4 transition-shadow hover:shadow-md"
+          data-reveal
+          data-reveal-delay={i * 50}
+        >
+          <div
+            class="h-10 w-10 rounded-xl"
+            style={`background-color: ${zone.color};`}
+          ></div>
+          <span class="text-center text-xs font-medium text-text-secondary leading-tight">
+            {zone.name}
+          </span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

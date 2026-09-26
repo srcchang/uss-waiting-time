@@ -1,0 +1,58 @@
+---
+import { getTranslations, t } from '../i18n/translations';
+import type { Locale } from '../i18n/config';
+import DownloadCTA from './DownloadCTA.astro';
+import PhoneMockup from './PhoneMockup.astro';
+
+interface Props {
+  locale: string;
+}
+
+const { locale } = Astro.props;
+const tr = getTranslations(locale as Locale);
+---
+
+<section
+  id="hero"
+  class="relative flex min-h-[calc(100vh-4rem)] min-h-[calc(100dvh-4rem)] flex-col items-center justify-center overflow-hidden px-4 py-16 sm:px-6 lg:px-8"
+>
+  <!-- Background glow -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/4 h-[600px] w-[600px] rounded-full bg-primary/5 blur-3xl"></div>
+
+  <div class="relative z-10 flex flex-col items-center text-center">
+    <div class="mb-6 inline-flex items-center rounded-full border border-border-subtle bg-bg-surface px-4 py-1.5 text-sm font-medium text-text-secondary shadow-sm">
+      {t(tr, 'hero.badge')}
+    </div>
+
+    <h1 class="text-[clamp(2.5rem,8vw,5rem)] font-bold leading-tight tracking-tight text-text-primary">
+      {t(tr, 'hero.title1')}
+      <span class="block bg-gradient-to-r from-primary-deep to-primary bg-clip-text text-transparent">
+        {t(tr, 'hero.title2')}
+      </span>
+    </h1>
+
+    <p class="mt-6 max-w-md text-[clamp(0.9rem,2.5vw,1.125rem)] text-text-secondary">
+      {t(tr, 'hero.subtitle')}
+    </p>
+
+    <div class="mt-12 flex items-end justify-center gap-6 sm:gap-10">
+      <div class="phone-float" style="--rotate: -3deg;">
+        <PhoneMockup locale={locale} />
+      </div>
+    </div>
+
+    <div class="mt-10">
+      <DownloadCTA locale={locale} />
+    </div>
+  </div>
+</section>
+
+<style>
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(var(--rotate, 0deg)); }
+    50%       { transform: translateY(-10px) rotate(var(--rotate, 0deg)); }
+  }
+  .phone-float {
+    animation: float 4s ease-in-out infinite;
+  }
+</style>

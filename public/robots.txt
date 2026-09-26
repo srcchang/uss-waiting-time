@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://srcchang.github.io/uss-waiting-time/sitemap-index.xml

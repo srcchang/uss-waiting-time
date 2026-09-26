@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "features": "기능",
+    "areas": "구역",
+    "faq": "자주 묻는 질문"
+  },
+  "hero": {
+    "badge": "USS 대기시간 앱",
+    "title1": "실시간으로",
+    "title2": "대기시간 확인",
+    "subtitle": "유니버설 스튜디오 싱가포르의 라이브 대기시간·요일별 대기시간 경향·휴지 정보를 실시간으로 확인하세요. 잊지 못할 하루를 만들어 보세요.",
+    "download": "다운로드",
+    "mockLabels": ["배틀스타 갤럭티카", "트랜스포머", "미이라", "쥬라기 래피드"]
+  },
+  "trust": {
+    "languages": "지원 언어",
+    "languagesCount": "6",
+    "areas": "파크 구역",
+    "areasCount": "7",
+    "platforms": "듀얼 플랫폼",
+    "platformsLabel": "iOS + Android"
+  },
+  "features": {
+    "sectionTitle": "USS Waiting Time의 특징",
+    "sectionSubtitle": "유니버설 스튜디오 싱가포르를 완벽하게 즐기기 위한 기능",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "실시간 대기시간",
+        "description": "모든 라이드의 라이브 대기시간을 파크에서 직접 받아보세요. USS 운영 시간 중에는 약 15분마다 갱신됩니다."
+      },
+      {
+        "icon": "calendar",
+        "title": "주간·월간 경향",
+        "description": "과거 데이터를 평균화한 요일별 평균 대기시간으로 가장 한산한 방문 날짜를 찾아보세요."
+      },
+      {
+        "icon": "bell",
+        "title": "휴지 정보·운영 시간",
+        "description": "오늘의 운영 시간과 라이드 임시 휴지 정보는 방문 전 Info 탭에서 확인하세요."
+      },
+      {
+        "icon": "ticket",
+        "title": "쇼·다이닝·쇼핑",
+        "description": "7개 구역의 쇼 시간·레스토랑·상점을 이름 검색과 구역 필터로 찾아보세요."
+      },
+      {
+        "icon": "globe",
+        "title": "6개 언어 지원",
+        "description": "영어·인도네시아어·일본어·한국어·번체중문·간체중문을 지원합니다. 해외 방문객도 안심하고 이용하세요."
+      }
+    ]
+  },
+  "areas": {
+    "sectionTitle": "7개 파크 구역",
+    "sectionSubtitle": "유니버설 스튜디오 싱가포르의 모든 구역을 커버"
+  },
+  "faq": {
+    "sectionTitle": "자주 묻는 질문",
+    "pageSubtitle": "USS Waiting Time 앱에 대해 알아야 할 모든 것",
+    "items": [
+      {
+        "question": "앱은 무료인가요?",
+        "answer": "네, 완전 무료입니다! 대기시간, 휴지 정보, 쇼 가이드 등 모든 기능을 무료로 이용하실 수 있습니다."
+      },
+      {
+        "question": "어떤 언어를 지원하나요?",
+        "answer": "영어, 인도네시아어, 일본어, 한국어, 번체중문, 간체중문 6개 언어를 지원합니다."
+      },
+      {
+        "question": "인터넷 연결이 필요한가요?",
+        "answer": "네, 대기시간 데이터가 실시간으로 업데이트되므로 인터넷 연결이 필요합니다."
+      },
+      {
+        "question": "데이터는 얼마나 자주 업데이트되나요?",
+        "answer": "라이드 대기시간은 파크 운영 시간 중에 약 15분마다 업데이트됩니다."
+      },
+      {
+        "question": "라이드 입구의 표시와 대기시간이 다른 이유는 무엇인가요?",
+        "answer": "대기시간은 하루 종일 계속 변동합니다. 앱은 약 15분마다 갱신되므로 현장 표시와 약간의 차이가 나는 것은 정상입니다. 동선 계획의 참고 자료로 활용해 보세요."
+      }
+    ]
+  },
+  "brand": {
+    "title": "USS Waiting Time 소개",
+    "description": "유니버설 스튜디오 싱가포르를 방문하는 모든 분께 즐거운 경험을 선사하고 싶습니다. 라이브 대기시간 데이터와 휴지 정보로 파크에서의 하루를 더욱 스마트하고 재미있게 만들어 보세요.",
+    "cta": "지금 다운로드"
+  },
+  "footer": {
+    "tagline": "USS 대기시간 앱\n유니버설 스튜디오 싱가포르의 대기시간을 실시간으로 확인",
+    "legal": "법적 정보",
+    "contact": "문의하기",
+    "privacy": "개인정보 보호정책",
+    "email": "srcchang@gmail.com",
+    "copyright": "© 2026 Project SRC. All rights reserved."
+  },
+  "common": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadApp": "앱 다운로드",
+    "minutesUnit": "분",
+    "a11y": {
+      "home": "홈",
+      "menuOpen": "메뉴 열기",
+      "languageSelect": "언어 선택",
+      "themeDark": "다크 모드로 전환",
+      "themeLight": "라이트 모드로 전환",
+      "skipToContent": "본문으로 건너뛰기",
+      "appStoreLink": "App Store에서 다운로드 (새 탭에서 열립니다)",
+      "googlePlayLink": "Google Play에서 다운로드 (새 탭에서 열립니다)"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "개인정보 보호정책",
+      "lastUpdated": "마지막 업데이트: 2026년 9월",
+      "sections": [
+        {
+          "heading": "수집하는 정보",
+          "content": "본 앱은 유니버설 스튜디오 싱가포르의 라이드 대기시간, 요일별 대기시간 경향, 휴지 정보, 쇼·다이닝 가이드 등의 정보를 제공합니다. 개인을 식별할 수 있는 정보는 수집하지 않습니다."
+        },
+        {
+          "heading": "광고에 대하여",
+          "content": "본 앱은 Google AdMob을 통해 광고를 표시합니다. AdMob은 광고 개인화를 위해 익명의 식별자나 기기 정보를 사용할 수 있습니다."
+        },
+        {
+          "heading": "Firebase 서비스",
+          "content": "본 앱은 Firebase(Google LLC) 서비스를 이용합니다. Firebase Analytics는 앱 사용 현황을 익명으로 수집하여 앱 개선에 활용합니다. Firebase Crashlytics는 충돌 보고서를 수집하여 앱 안정성 향상에 기여합니다."
+        },
+        {
+          "heading": "공식 사이트 링크",
+          "content": "라이드·시설 페이지에서 티켓 구매와 상세 확인을 위해 유니버설 스튜디오 싱가포르 공식 사이트로 연결됩니다. 앱을 벗어난 곳에서는 해당 사이트의 개인정보 보호정책이 적용됩니다."
+        },
+        {
+          "heading": "문의하기",
+          "content": "본 개인정보 보호정책에 관한 질문은 srcchang@gmail.com 으로 문의해 주세요."
+        }
+      ]
+    }
+  }
+}

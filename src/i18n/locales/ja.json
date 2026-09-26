@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "features": "機能",
+    "areas": "エリア",
+    "faq": "よくある質問"
+  },
+  "hero": {
+    "badge": "USS待ち時間アプリ",
+    "title1": "リアルタイムで",
+    "title2": "待ち時間をチェック",
+    "subtitle": "ユニバーサル・スタジオ・シンガポールのライブ待ち時間・曜日別の待ち時間傾向・休止情報をリアルタイムで確認。思い出に残る一日を。",
+    "download": "ダウンロード",
+    "mockLabels": ["バトルスター・ギャラクティカ", "トランスフォーマー", "マミー", "ジュラシック・ラピッド"]
+  },
+  "trust": {
+    "languages": "対応言語",
+    "languagesCount": "6",
+    "areas": "エリア",
+    "areasCount": "7",
+    "platforms": "デュアルプラットフォーム",
+    "platformsLabel": "iOS + Android"
+  },
+  "features": {
+    "sectionTitle": "USS Waiting Time の特徴",
+    "sectionSubtitle": "ユニバーサル・スタジオ・シンガポールを最高に楽しむための機能",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "リアルタイム待ち時間",
+        "description": "すべてのライドのライブ待ち時間をパークから直接配信。USSの開園時間中は約15分ごとに更新されます。"
+      },
+      {
+        "icon": "calendar",
+        "title": "週間・月間の傾向",
+        "description": "過去のデータから算出した曜日別の平均的な待ち時間。空いている来園日を見つけましょう。"
+      },
+      {
+        "icon": "bell",
+        "title": "休止情報・営業時間",
+        "description": "本日の営業時間とライドの一時休止情報は、お出かけ前に「Info」タブでチェック。"
+      },
+      {
+        "icon": "ticket",
+        "title": "ショー・グルメ・ショッピング",
+        "description": "全7エリアのショー時間・レストラン・ショップを、名前検索やエリア絞り込みで探せます。"
+      },
+      {
+        "icon": "globe",
+        "title": "6か国語対応",
+        "description": "英語・インドネシア語・日本語・韓国語・繁体中文・简体中文に対応。海外のお客様も安心。"
+      }
+    ]
+  },
+  "areas": {
+    "sectionTitle": "7つのエリア",
+    "sectionSubtitle": "ユニバーサル・スタジオ・シンガポールの全エリアをカバー"
+  },
+  "faq": {
+    "sectionTitle": "よくある質問",
+    "pageSubtitle": "USS Waiting Time アプリについて知っておきたいこと",
+    "items": [
+      {
+        "question": "アプリは無料ですか？",
+        "answer": "はい、完全に無料です。待ち時間、休止情報、ショーガイドなど、すべての機能を無料でお使いいただけます。"
+      },
+      {
+        "question": "どの言語に対応していますか？",
+        "answer": "英語、インドネシア語、日本語、韓国語、繁体中文、简体中文の6か国語に対応しています。"
+      },
+      {
+        "question": "インターネット接続は必要ですか？",
+        "answer": "はい、待ち時間データはリアルタイムで更新されるため、インターネット接続が必要です。"
+      },
+      {
+        "question": "データの更新頻度はどのくらいですか？",
+        "answer": "ライドの待ち時間は開園時間中に約15分ごとに更新されます。"
+      },
+      {
+        "question": "ライド入口の表示と待ち時間が違うのはなぜですか？",
+        "answer": "待ち時間は一日を通して常に変動しています。アプリは約15分ごとに更新されるため、現地の表示と多少の差が出るのは正常です。回り方の目安としてご活用ください。"
+      }
+    ]
+  },
+  "brand": {
+    "title": "USS Waiting Time について",
+    "description": "私たちは、ユニバーサル・スタジオ・シンガポールを訪れるすべての方に、快適な体験を提供したいと考えています。ライブの待ち時間データと休止情報で、パークでの一日をもっと楽しく、もっとスマートに。",
+    "cta": "今すぐダウンロード"
+  },
+  "footer": {
+    "tagline": "USS待ち時間アプリ\nユニバーサル・スタジオ・シンガポールの待ち時間をリアルタイムで確認",
+    "legal": "法的情報",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシーポリシー",
+    "email": "srcchang@gmail.com",
+    "copyright": "© 2026 Project SRC. All rights reserved."
+  },
+  "common": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadApp": "アプリをダウンロード",
+    "minutesUnit": "分",
+    "a11y": {
+      "home": "ホーム",
+      "menuOpen": "メニューを開く",
+      "languageSelect": "言語を選択",
+      "themeDark": "ダークモードに切り替え",
+      "themeLight": "ライトモードに切り替え",
+      "skipToContent": "本文へスキップ",
+      "appStoreLink": "App Storeでダウンロード（新しいタブで開きます）",
+      "googlePlayLink": "Google Playでダウンロード（新しいタブで開きます）"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日: 2026年9月",
+      "sections": [
+        {
+          "heading": "収集する情報",
+          "content": "本アプリはユニバーサル・スタジオ・シンガポールのライド待ち時間、曜日別の待ち時間傾向、休止情報、ショー・グルメガイドなどの情報を提供します。個人を特定する情報は収集しません。"
+        },
+        {
+          "heading": "広告について",
+          "content": "本アプリではGoogle AdMobを通じて広告を表示しています。AdMobは、広告のパーソナライズのために匿名の識別子やデバイス情報を使用する場合があります。"
+        },
+        {
+          "heading": "Firebaseサービス",
+          "content": "本アプリはFirebase（Google LLC）のサービスを利用しています。Firebase Analyticsはアプリの使用状況を匿名で収集し、アプリの改善に活用します。Firebase Crashlyticsはクラッシュレポートを収集し、アプリの安定性向上に貢献します。"
+        },
+        {
+          "heading": "公式サイトへのリンク",
+          "content": "ライド・施設のページからチケット購入や詳細確認のためユニバーサル・スタジオ・シンガポールの公式サイトへリンクしています。アプリを離れた先では当該サイトのプライバシーポリシーが適用されます。"
+        },
+        {
+          "heading": "お問い合わせ",
+          "content": "本プライバシーポリシーに関するご質問は、srcchang@gmail.com までお問い合わせください。"
+        }
+      ]
+    }
+  }
+}

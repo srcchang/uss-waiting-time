@@ -1,0 +1,111 @@
+@import 'tailwindcss';
+@import '@fontsource/outfit/400.css';
+@import '@fontsource/outfit/600.css';
+@import '@fontsource/outfit/700.css';
+@import '@fontsource-variable/noto-sans-jp';
+@import '@fontsource-variable/noto-sans-kr';
+@import '@fontsource-variable/noto-sans-sc';
+@import '@fontsource-variable/noto-sans-tc';
+
+@variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+html[lang='ja'] body { font-family: var(--font-family-jp); }
+html[lang='ko'] body { font-family: var(--font-family-kr); }
+html[lang='zh-Hant'] body { font-family: var(--font-family-tc); }
+html[lang='zh-Hans'] body { font-family: var(--font-family-sc); }
+
+@theme {
+  --color-primary: #8A5A1E;
+  --color-primary-deep: #5C3A10;
+  --color-primary-light: #E6BE7B;
+  --color-accent: #C9972B;
+
+  --color-bg-primary: #FAF7F0;
+  --color-bg-surface: #FFFFFF;
+  --color-bg-muted: #F3EDE1;
+  --color-text-primary: #2B2118;
+  --color-text-secondary: #7A6A58;
+  --color-border-subtle: #E7DCC8;
+  --color-border-strong: #D3C3A5;
+
+  --font-family-sans: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-family-jp: 'Noto Sans JP Variable', sans-serif;
+  --font-family-kr: 'Noto Sans KR Variable', sans-serif;
+  --font-family-sc: 'Noto Sans SC Variable', sans-serif;
+  --font-family-tc: 'Noto Sans TC Variable', sans-serif;
+}
+
+[data-theme="dark"] {
+  --color-bg-primary: #14110B;
+  --color-bg-surface: #201A12;
+  --color-bg-muted: #282015;
+  --color-text-primary: #F5EEDF;
+  --color-text-secondary: #B8A88F;
+  --color-border-subtle: #38301F;
+  --color-border-strong: #54472E;
+  --color-primary: #E3B76B;
+  --color-primary-deep: #C9972B;
+  --color-primary-light: #5C3A10;
+  --color-accent: #F0C778;
+}
+
+/* Embed mode (?embed=1) hides chrome for in-app WebView */
+[data-embed="true"] [data-embed-hide] {
+  display: none !important;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-primary);
+  color: #fff;
+  font-weight: 600;
+}
+.skip-link:focus-visible {
+  top: 1rem;
+}
+
+/* Anchor offset below fixed nav */
+section[id] {
+  scroll-margin-top: 72px;
+}
+
+/* Visible keyboard focus everywhere */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Reveal animation only when JS is available */
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.js [data-reveal].revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .js [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .phone-float,
+  [data-faq-content],
+  [data-mobile-menu],
+  [data-faq-chevron] {
+    animation: none !important;
+    transition: none !important;
+  }
+}

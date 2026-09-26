@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "features": "Features",
+    "areas": "Zones",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "badge": "USS Wait Time App",
+    "title1": "Check Wait Times",
+    "title2": "In Real Time",
+    "subtitle": "Live ride wait times, typical wait trends, and closure alerts for Universal Studios Singapore. Make every visit count.",
+    "download": "Download",
+    "mockLabels": ["Battlestar Galactica", "TRANSFORMERS", "Mummy", "Jurassic Rapids"]
+  },
+  "trust": {
+    "languages": "Languages",
+    "languagesCount": "6",
+    "areas": "Park Zones",
+    "areasCount": "7",
+    "platforms": "Dual Platform",
+    "platformsLabel": "iOS + Android"
+  },
+  "features": {
+    "sectionTitle": "Why USS Waiting Time?",
+    "sectionSubtitle": "Everything you need for the perfect day at Universal Studios Singapore",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Real-Time Wait Times",
+        "description": "Live wait times for every ride, streamed from the park and refreshed about every 15 minutes while USS is open."
+      },
+      {
+        "icon": "calendar",
+        "title": "Weekly & Monthly Trends",
+        "description": "Typical wait times by weekday, averaged from historical data — spot the quietest day to visit."
+      },
+      {
+        "icon": "bell",
+        "title": "Closures & Operation Hours",
+        "description": "Today's operation hours and temporary ride closures, checked in the Info tab before you go."
+      },
+      {
+        "icon": "ticket",
+        "title": "Shows, Dining & Shopping",
+        "description": "Showtimes, restaurants, and shops across all 7 zones, with name search and zone filters."
+      },
+      {
+        "icon": "globe",
+        "title": "6 Languages",
+        "description": "Supports English, Bahasa Indonesia, Japanese, Korean, Traditional Chinese, and Simplified Chinese."
+      }
+    ]
+  },
+  "areas": {
+    "sectionTitle": "7 Park Zones",
+    "sectionSubtitle": "Covering every land of Universal Studios Singapore"
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "pageSubtitle": "Everything you need to know about the USS Waiting Time app",
+    "items": [
+      {
+        "question": "Is the app free?",
+        "answer": "Yes, completely free! All features including wait times, closure alerts, and show guides are available at no cost."
+      },
+      {
+        "question": "Which languages are supported?",
+        "answer": "The app supports 6 languages: English, Bahasa Indonesia, Japanese, Korean, Traditional Chinese, and Simplified Chinese."
+      },
+      {
+        "question": "Do I need an internet connection?",
+        "answer": "Yes, an internet connection is required as wait time data is updated in real time."
+      },
+      {
+        "question": "How often is the data updated?",
+        "answer": "Ride wait times are refreshed about every 15 minutes while the park is open."
+      },
+      {
+        "question": "Why does the wait time differ from the display at the ride entrance?",
+        "answer": "Wait times fluctuate constantly throughout the day. The app refreshes about every 15 minutes, so a small difference from the on-site display is normal — use it as a guide for planning your route."
+      }
+    ]
+  },
+  "brand": {
+    "title": "About USS Waiting Time",
+    "description": "We want to make every visit to Universal Studios Singapore more enjoyable. With live wait time data and closure alerts, your day at the park becomes smarter and more fun.",
+    "cta": "Download Now"
+  },
+  "footer": {
+    "tagline": "USS Wait Time App\nReal-time wait times for Universal Studios Singapore",
+    "legal": "Legal",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "email": "srcchang@gmail.com",
+    "copyright": "© 2026 Project SRC. All rights reserved."
+  },
+  "common": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadApp": "Download the App",
+    "minutesUnit": " min",
+    "a11y": {
+      "home": "Home",
+      "menuOpen": "Open menu",
+      "languageSelect": "Select language",
+      "themeDark": "Switch to dark mode",
+      "themeLight": "Switch to light mode",
+      "skipToContent": "Skip to content",
+      "appStoreLink": "Download on the App Store (opens in new tab)",
+      "googlePlayLink": "Get it on Google Play (opens in new tab)"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: September 2026",
+      "sections": [
+        {
+          "heading": "Information We Collect",
+          "content": "This app provides ride wait times, typical wait trends, closure alerts, and show and dining guides for Universal Studios Singapore. We do not collect any personally identifiable information."
+        },
+        {
+          "heading": "Advertising",
+          "content": "This app displays advertisements through Google AdMob. AdMob may use anonymous identifiers and device information to personalize ads."
+        },
+        {
+          "heading": "Firebase Services",
+          "content": "This app uses Firebase (Google LLC) services. Firebase Analytics anonymously collects app usage data for improvement. Firebase Crashlytics collects crash reports to improve app stability."
+        },
+        {
+          "heading": "Official Website Links",
+          "content": "Ride and venue pages link out to the official Universal Studios Singapore website for tickets and details. That website's own privacy policy applies once you leave the app."
+        },
+        {
+          "heading": "Contact",
+          "content": "For questions about this Privacy Policy, please contact srcchang@gmail.com."
+        }
+      ]
+    }
+  }
+}

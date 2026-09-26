@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "features": "功能",
+    "areas": "園區",
+    "faq": "常見問題"
+  },
+  "hero": {
+    "badge": "USS 等候時間 App",
+    "title1": "即時查詢",
+    "title2": "設施等候時間",
+    "subtitle": "即時掌握新加坡環球影城的設施等候時間、平日等候趨勢與暫停開放資訊，讓每次遊園都盡興而歸。",
+    "download": "下載",
+    "mockLabels": ["太空堡壘", "變形金剛", "木乃伊復仇", "侏羅紀激流"]
+  },
+  "trust": {
+    "languages": "支援語言",
+    "languagesCount": "6",
+    "areas": "園區",
+    "areasCount": "7",
+    "platforms": "雙平台",
+    "platformsLabel": "iOS + Android"
+  },
+  "features": {
+    "sectionTitle": "為什麼選擇 USS Waiting Time？",
+    "sectionSubtitle": "在新加坡環球影城度過完美一天所需的一切",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "即時等候時間",
+        "description": "所有遊樂設施的即時等候時間由園區直接提供，開園期間約每 15 分鐘更新一次。"
+      },
+      {
+        "icon": "calendar",
+        "title": "週／月等候趨勢",
+        "description": "根據歷史資料平均的各星期幾等候時間，幫你找到最不擁擠的遊園日期。"
+      },
+      {
+        "icon": "bell",
+        "title": "暫停開放與營業時間",
+        "description": "出發前先到「資訊」分頁確認今日營業時間與設施暫停開放公告。"
+      },
+      {
+        "icon": "ticket",
+        "title": "表演、餐飲與購物",
+        "description": "7 大園區的表演時刻表、餐廳與商店，支援名稱搜尋與園區篩選。"
+      },
+      {
+        "icon": "globe",
+        "title": "6 種語言",
+        "description": "支援英文、印尼文、日文、韓文、繁體中文與簡體中文。"
+      }
+    ]
+  },
+  "areas": {
+    "sectionTitle": "7 大主題園區",
+    "sectionSubtitle": "完整覆蓋新加坡環球影城的每一個角落"
+  },
+  "faq": {
+    "sectionTitle": "常見問題",
+    "pageSubtitle": "關於 USS Waiting Time App，你需要知道的一切",
+    "items": [
+      {
+        "question": "這個 App 是免費的嗎？",
+        "answer": "是的，完全免費！等候時間、暫停開放通知、表演指南等所有功能都可免費使用。"
+      },
+      {
+        "question": "支援哪些語言？",
+        "answer": "支援 6 種語言：英文、印尼文、日文、韓文、繁體中文與簡體中文。"
+      },
+      {
+        "question": "需要網路連線嗎？",
+        "answer": "是的，因為等候時間資料是即時更新的，所以需要網路連線。"
+      },
+      {
+        "question": "資料多久更新一次？",
+        "answer": "園區開放期間，設施等候時間約每 15 分鐘更新一次。"
+      },
+      {
+        "question": "為什麼 App 顯示的時間跟設施入口的看板不一樣？",
+        "answer": "等候時間一整天都在不斷變化。App 約每 15 分鐘更新一次，與現場看板有些微落差是正常的，請將它作為規劃路線的參考。"
+      }
+    ]
+  },
+  "brand": {
+    "title": "關於 USS Waiting Time",
+    "description": "我們希望讓每一位來到新加坡環球影城的遊客都玩得更盡興。透過即時等候時間資料與暫停開放通知，讓你的園區之旅更聰明、更好玩。",
+    "cta": "立即下載"
+  },
+  "footer": {
+    "tagline": "USS 等候時間 App\n即時掌握新加坡環球影城設施等候時間",
+    "legal": "法律資訊",
+    "contact": "聯絡我們",
+    "privacy": "隱私權政策",
+    "email": "srcchang@gmail.com",
+    "copyright": "© 2026 Project SRC. All rights reserved."
+  },
+  "common": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadApp": "下載 App",
+    "minutesUnit": "分",
+    "a11y": {
+      "home": "首頁",
+      "menuOpen": "開啟選單",
+      "languageSelect": "選擇語言",
+      "themeDark": "切換到深色模式",
+      "themeLight": "切換到淺色模式",
+      "skipToContent": "跳到主要內容",
+      "appStoreLink": "在 App Store 下載（在新分頁中開啟）",
+      "googlePlayLink": "在 Google Play 下載（在新分頁中開啟）"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "隱私權政策",
+      "lastUpdated": "最後更新：2026年9月",
+      "sections": [
+        {
+          "heading": "我們收集的資訊",
+          "content": "本 App 提供新加坡環球影城的設施等候時間、平日等候趨勢、暫停開放通知、表演與餐飲指南等資訊。我們不會收集任何可識別個人身分的資訊。"
+        },
+        {
+          "heading": "廣告",
+          "content": "本 App 透過 Google AdMob 顯示廣告。AdMob 可能會使用匿名識別碼與裝置資訊來個人化廣告。"
+        },
+        {
+          "heading": "Firebase 服務",
+          "content": "本 App 使用 Firebase（Google LLC）服務。Firebase Analytics 會匿名收集 App 使用情形以進行改善；Firebase Crashlytics 會收集當機報告以提升 App 穩定性。"
+        },
+        {
+          "heading": "官方網站連結",
+          "content": "設施與場館頁面會連結至新加坡環球影城官方網站以便購票與查詢詳情，離開 App 後適用該網站自身的隱私權政策。"
+        },
+        {
+          "heading": "聯絡我們",
+          "content": "如對本隱私權政策有任何疑問，請聯絡 srcchang@gmail.com。"
+        }
+      ]
+    }
+  }
+}
