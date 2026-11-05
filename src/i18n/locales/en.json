@@ -5,7 +5,7 @@
     "faq": "FAQ"
   },
   "hero": {
-    "badge": "USS Wait Time App",
+    "badge": "USS Waiting Time App",
     "title1": "Check Wait Times",
     "title2": "In Real Time",
     "subtitle": "Live ride wait times, typical wait trends, and closure alerts for Universal Studios Singapore. Make every visit count.",
@@ -87,7 +87,7 @@
     "cta": "Download Now"
   },
   "footer": {
-    "tagline": "USS Wait Time App\nReal-time wait times for Universal Studios Singapore",
+    "tagline": "USS Waiting Time App\\nReal-time wait times for Universal Studios Singapore",
     "legal": "Legal",
     "contact": "Contact",
     "privacy": "Privacy Policy",
